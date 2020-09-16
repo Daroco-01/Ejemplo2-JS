@@ -1,1 +1,1 @@
-# Ejemplo2-JS
+Ejemplos 2 de aprendizaje sobre JS
