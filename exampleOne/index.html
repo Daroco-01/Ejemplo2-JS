@@ -3,9 +3,42 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Variables</title>
-     <script src="js/variables.js"></script>
+     <title>Operaciones Aritmeticas</title>
+     <!--script src="js/variables.js"></script-->
+     <script src="js/operArit.js"></script>
 <body>
+     <h1>Formulario OPeraciones Aritmeticas</h1>
+     <form>
+          <label for="nUno">Numero uno</label>  
+          <input type="text" name="nUno" id="nUno">
+          <br> <br>
+          <label for="nDos">Numero dos</label>  
+          <input type="text" name="nDos" id="nDos">
+          <br> <br>
+          <button type="button" onclick="sumar()" >sumar</button>
+          <p>
+               <button type="button" onclick="multiplicar()" >multiplicar</button>
+               <br> <br>
+               Resultado
+               <textarea id="resulOperaciones" cols="5" rows="1"></textarea>
+          </p>
+     </form>
+      <hr>
+      <form>
+           <h1>Area del triangulo</h1>
+           <label for="base">Base</label>
+           <input type="text"  id="base" name="base">
+           <br><br>
+           <label for="base">Height</label>
+           <input type="text" id="heigth" name="heigth">
+           <br><br>
+           <button type="button" onclick="areaTriangle()">calcular</button>
+           <p>resultado:
+               <textarea name="resultAreaTriangle" id="resultAreaTriangle" cols="5" rows="1"></textarea>
+          </p>
+           
+      </form>
+
      
 </body>
 </html>
